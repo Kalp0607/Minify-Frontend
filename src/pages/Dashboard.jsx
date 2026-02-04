@@ -174,7 +174,7 @@ function Dashboard() {
 
         {/* Copy Toast */}
         {showCopied && (
-          <div className="fixed top-8 left-1/2 -translate-x-1/2 bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-2 rounded-xl shadow-xl animate-bounce">
+          <div className="fixed top-24 left-1/2 -translate-x-1/2 z-[9999] bg-gradient-to-r from-green-500 to-emerald-500 text-white px-6 py-2 rounded-xl shadow-xl">
             Link copied to clipboard ✅
           </div>
         )}
