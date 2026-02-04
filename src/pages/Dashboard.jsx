@@ -52,7 +52,7 @@ function Dashboard() {
 
   const copyLink = (shortId) => {
     navigator.clipboard.writeText(
-      `https://minify-backend-hlll.onrender.com/${u.shortId}`,
+      `https://minify-backend-hlll.onrender.com/${shortId}`,
     );
     setShowCopied(true);
 
@@ -124,7 +124,7 @@ function Dashboard() {
                 rel="noreferrer"
                 className="font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
               >
-                https://minify-backend-hlll.onrender.com/${u.shortId}
+                https://minify-backend-hlll.onrender.com/{u.shortId}
               </a>
 
               <div className="flex justify-between items-center mt-4">
