@@ -53,6 +53,14 @@ function Navbar() {
             >
               Home
             </Link>
+            {role?.toUpperCase() === "ADMIN" && (
+              <Link
+                to="/admin"
+                className="text-sm font-medium text-purple-600 hover:text-purple-800 transition"
+              >
+                Admin Dashboard
+              </Link>
+            )}
 
             {name ? (
               <>
